@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class DivideTest extends AbstractBinaryOpTest {
 
-    @Test(dataProvider = "long")
+    @Test(dataProvider = "long", groups = "MulDiv")
     public void divLongTest(long a, long b) {
         if (b == 0L) {
             try {
@@ -20,7 +20,7 @@ public class DivideTest extends AbstractBinaryOpTest {
         }
     }
 
-    @Test(dataProvider = "double")
+    @Test(dataProvider = "double", groups = "MulDiv")
     public void divDoubleTest(double a, double b) {
         Assert.assertEquals(calculator.div(a,b), a / b);
     }
