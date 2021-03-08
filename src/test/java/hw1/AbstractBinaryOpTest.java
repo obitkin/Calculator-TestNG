@@ -19,12 +19,6 @@ public abstract class AbstractBinaryOpTest {
     private final Object[] possibleOptionsForDouble =
             new Object[] {0., -0., Double.MAX_VALUE, Double.MIN_VALUE, Math.abs(random.nextDouble()), -Math.abs(random.nextDouble())};
 
-    @Test
-    public abstract void longTest(long a, long b);
-
-    @Test
-    public abstract void doubleTest(double a, double b);
-
     private Object[][] cartesianProduct(Object[] set) {
         Object[][] res = new Object[set.length * set.length][2]; //2 for pairs
 
