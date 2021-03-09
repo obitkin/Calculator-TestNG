@@ -37,55 +37,49 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <build>
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <artifactId>maven-surefire-plugin</artifactId>
-              <version>2.22.1</version>
-              <configuration>
-                <suiteXmlFiles>
-                  <suiteXmlFile>testngSumSub.xml</suiteXmlFile>
-                </suiteXmlFiles>
-              </configuration>
-            </plugin>
-          </plugins>
-        </pluginManagement>
+        <plugins>
+          <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.1</version>
+            <configuration>
+              <suiteXmlFiles>
+                <suiteXmlFile>testngSumSub.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>
+        </plugins>
       </build>
     </profile>
     <profile>
       <id>mul-div</id>
       <build>
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <artifactId>maven-surefire-plugin</artifactId>
-              <version>2.22.1</version>
-              <configuration>
-                <suiteXmlFiles>
-                  <suiteXmlFile>testngMulDiv.xml</suiteXmlFile>
-                </suiteXmlFiles>
-              </configuration>
-            </plugin>
-          </plugins>
-        </pluginManagement>
+        <plugins>
+          <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.1</version>
+            <configuration>
+              <suiteXmlFiles>
+                <suiteXmlFile>testngMulDiv.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>
+        </plugins>
       </build>
     </profile>
     <profile>
       <id>all</id>
       <build>
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <artifactId>maven-surefire-plugin</artifactId>
-              <version>2.22.1</version>
-              <configuration>
-                <suiteXmlFiles>
-                  <suiteXmlFile>testngAll.xml</suiteXmlFile>
-                </suiteXmlFiles>
-              </configuration>
-            </plugin>
-          </plugins>
-        </pluginManagement>
+        <plugins>
+          <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.1</version>
+            <configuration>
+              <suiteXmlFiles>
+                <suiteXmlFile>testngAll.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>
+        </plugins>
       </build>
     </profile>
   </profiles>
