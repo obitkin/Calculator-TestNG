@@ -40,7 +40,7 @@
 
   <profiles>
     <profile>
-      <id>sum-sub</id>
+      <id>sumSub</id>
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
@@ -51,7 +51,7 @@
             <version>2.22.1</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>testngSumSub.xml</suiteXmlFile>
+                <suiteXmlFile>testngFiles/testngSumSub.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
           </plugin>
@@ -59,7 +59,7 @@
       </build>
     </profile>
     <profile>
-      <id>mul-div</id>
+      <id>mulDiv</id>
       <build>
         <plugins>
           <plugin>
@@ -67,7 +67,7 @@
             <version>2.22.1</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>testngMulDiv.xml</suiteXmlFile>
+                <suiteXmlFile>testngFiles/testngMulDiv.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
           </plugin>
@@ -83,7 +83,7 @@
             <version>2.22.1</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>testngAll.xml</suiteXmlFile>
+                <suiteXmlFile>testngFiles/testngAll.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
           </plugin>
