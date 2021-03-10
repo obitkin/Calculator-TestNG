@@ -6,4 +6,4 @@
 
 **mvn -Pall test** for AddTest, SubTest, MulTest and DivTest 
 
-Author: *Andreev Robert*
+Author:  *Andreev Robert* 
